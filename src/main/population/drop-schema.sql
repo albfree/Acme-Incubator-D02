@@ -33,7 +33,11 @@
 
     drop table if exists `horrillo_bulletin`;
 
+    drop table if exists `inquiry`;
+
     drop table if exists `lobato_bulletin`;
+
+    drop table if exists `overture`;
 
     drop table if exists `perez_bulletin`;
 
