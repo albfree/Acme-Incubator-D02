@@ -366,4 +366,26 @@ GuerreroBulletin
 + quote: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>963</x>
+      <y>468</y>
+      <w>306</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Challenge
+--
++ title: String {NotBlank}
++ deadline: Date {NotNull, Temporal(TIMESTAMP)}
++ description: String {NotBlank}
++ rookieGoal: String {NotBlank}
++ rookieReward: Money {NotNull, Valid}
++ averageGoal: String {NotBlank}
++ averageReward: Money {NotNull, Valid}
++ expertGoal: String {NotBlank}
++ expertReward: Money {NotNull, Valid}</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
