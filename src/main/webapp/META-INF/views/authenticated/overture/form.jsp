@@ -20,7 +20,7 @@
 	<acme:form-textbox code="authenticated.overture.form.label.title" path="title"/>
 	<acme:form-moment code="authenticated.overture.form.label.creation" path="creation"/>
 	<acme:form-moment code="authenticated.overture.form.label.deadline" path="deadline"/>
-	<acme:form-textbox code="authenticated.overture.form.label.description" path="description"/>
+	<acme:form-textarea code="authenticated.overture.form.label.description" path="description"/>
 	<acme:form-money code="authenticated.overture.form.label.minMoney" path="minMoney"/>
 	<acme:form-money code="authenticated.overture.form.label.maxMoney" path="maxMoney"/>
 	<acme:form-textbox code="authenticated.overture.form.label.email" path="email"/>

@@ -8,12 +8,12 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-authenticated.overture.form.label.title = Título
-authenticated.overture.form.label.creation = Fecha de creacion
-authenticated.overture.form.label.deadline = Fecha límite
-authenticated.overture.form.label.description = Descripción
-authenticated.overture.form.label.minMoney = Dinero mínimo
-authenticated.overture.form.label.maxMoney = Dinero máximo
-authenticated.overture.form.label.email = Email
+authenticated.inquiry.form.label.title = Título
+authenticated.inquiry.form.label.creation = Fecha de creacion
+authenticated.inquiry.form.label.deadline = Fecha límite
+authenticated.inquiry.form.label.description = Descripción
+authenticated.inquiry.form.label.minMoney = Dinero mínimo
+authenticated.inquiry.form.label.maxMoney = Dinero máximo
+authenticated.inquiry.form.label.email = Email
 
-authenticated.overture.form.button.return = Volver
+authenticated.inquiry.form.button.return = Volver

@@ -118,5 +118,36 @@
 		<property name="maxMoney" value="100.0€"/>
 		<property name="email" value="overture@overture.com"/>
 	</bean>
+	
+	<bean id="overture02" class="acme.entities.overtures.Overture">
+		<property name="title" value="overture"/>
+		<property name="creation" value="2010/06/06 10:00"/>
+		<property name="deadline" value="2019/06/06 10:00"/>
+		<property name="description" value="overture overture overture"/>
+		<property name="minMoney" value="50.0€"/>
+		<property name="maxMoney" value="100.0€"/>
+		<property name="email" value="overture@overture.com"/>
+	</bean>
+	
+	<bean id="inquiry01" class="acme.entities.inquiries.Inquiry">
+		<property name="title" value="Inquiry"/>
+		<property name="creation" value="2019/06/06 10:00"/>
+		<property name="deadline" value="2022/06/06 10:00"/>
+		<property name="description" value="Inquiry Inquiry Inquiry"/>
+		<property name="minMoney" value="50.0€"/>
+		<property name="maxMoney" value="100.0€"/>
+		<property name="email" value="Inquiry@Inquiry.com"/>
+	</bean>
+	
+	<bean id="inquiry02" class="acme.entities.inquiries.Inquiry">
+		<property name="title" value="Inquiry"/>
+		<property name="creation" value="2010/06/06 10:00"/>
+		<property name="deadline" value="2019/06/06 10:00"/>
+		<property name="description" value="Inquiry Inquiry Inquiry"/>
+		<property name="minMoney" value="50.0€"/>
+		<property name="maxMoney" value="100.0€"/>
+		<property name="email" value="Inquiry@Inquiry.com"/>
+	</bean>
+	
 
 </beans>

@@ -57,6 +57,8 @@
 		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
 			<acme:menu-suboption code="master.menu.authenticated.overture.list" action="/authenticated/overture/list" />
 			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.authenticated.inquiry.list" action="/authenticated/inquiry/list" />
+			<acme:menu-separator/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
