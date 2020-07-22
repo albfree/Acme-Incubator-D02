@@ -108,5 +108,78 @@
 		<property name="scientist" value="Neron"/>
 		<property name="investigation" value="How to put out a fire in one day"/>
 	</bean>
+	
+	<!-- Challenge -->
+
+	<bean id="challenge01" class="acme.entities.challenges.Challenge">
+		<property name="title" value="Challenge 01"/>
+		<property name="deadline" value="2021/08/21 23:59"/>
+		<property name="description" value="This is the description of a challenge"/>
+		<property name="rookieGoal" value="Goal 1"/>
+		<property name="rookieReward">
+			<ref bean="money01"/>
+		</property>
+		<property name="averageGoal" value="Goal 2"/>
+		<property name="averageReward">
+			<ref bean="money02"/>
+		</property>
+		<property name="expertGoal" value="Goal 3"/>
+		<property name="expertReward">
+			<ref bean="money03"/>
+		</property>
+	</bean>
+
+	<bean id="challenge02" class="acme.entities.challenges.Challenge">
+		<property name="title" value="Challenge 02"/>
+		<property name="deadline" value="2021/09/15 12:00"/>
+		<property name="description" value="This is the description of another challenge"/>
+		<property name="rookieGoal" value="Goal 1"/>
+		<property name="rookieReward">
+			<ref bean="money01"/>
+		</property>
+		<property name="averageGoal" value="Goal 2"/>
+		<property name="averageReward">
+			<ref bean="money02"/>
+		</property>
+		<property name="expertGoal" value="Goal 3"/>
+		<property name="expertReward">
+			<ref bean="money03"/>
+		</property>
+	</bean>
+
+	<bean id="challenge03" class="acme.entities.challenges.Challenge">
+		<property name="title" value="Challenge 03"/>
+		<property name="deadline" value="2020/06/17 00:00"/>
+		<property name="description" value="This is the description of the third challenge"/>
+		<property name="rookieGoal" value="Goal 1"/>
+		<property name="rookieReward">
+			<ref bean="money01"/>
+		</property>
+		<property name="averageGoal" value="Goal 2"/>
+		<property name="averageReward">
+			<ref bean="money02"/>
+		</property>
+		<property name="expertGoal" value="Goal 3"/>
+		<property name="expertReward">
+			<ref bean="money03"/>
+		</property>
+	</bean>
+
+	<!-- Money -->
+
+	<bean id="money01" class="acme.framework.datatypes.Money">
+		<property name="amount" value="500.00"/>
+		<property name="currency" value="€"/>
+	</bean>
+
+	<bean id="money02" class="acme.framework.datatypes.Money">
+		<property name="amount" value="1000.00"/>
+		<property name="currency" value="€"/>
+	</bean>
+
+	<bean id="money03" class="acme.framework.datatypes.Money">
+		<property name="amount" value="1500.00"/>
+		<property name="currency" value="€"/>
+	</bean>
 
 </beans>
