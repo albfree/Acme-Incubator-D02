@@ -15,7 +15,7 @@ public interface AnonymousNoticeRepository extends AbstractRepository {
 	@Query("select n from Notice n where n.id= ?1")
 	Notice findOneNoticeById(int id);
 
-	@Query("select n from Notice n WHERE datediff(curdate(), n.deadline) >= 1")
+	@Query("select n from Notice n WHERE datediff(n.deadline, curdate()) > 0")
 	Collection<Notice> findActiveNotices();
 
 }
