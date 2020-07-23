@@ -31,6 +31,7 @@ master.menu.bulletins.create = Creates of Bulletins
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
+master.menu.anonymous.notice.list = Notice's list
 master.menu.anonymous.albgueram = Alberto's favourite link
 master.menu.anonymous.josescrue-favourite-link = josescrue's favourite link
 master.menu.anonymous.favourite-link.diego = Diego's favourite link

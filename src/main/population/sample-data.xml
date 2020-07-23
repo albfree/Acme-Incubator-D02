@@ -108,5 +108,34 @@
 		<property name="scientist" value="Neron"/>
 		<property name="investigation" value="How to put out a fire in one day"/>
 	</bean>
+	
+	<!-- Notices -->	
+
+	<bean id="notice01" class="acme.entities.notices.Notice">
+		<property name="headerPicture" value="https://www.nationalgeographic.com.es/medio/2020/07/14/infeccion-cerebral_4e12cbee_800x800.jpg"/>
+		<property name="title" value="El coronavirus mejora"/>
+		<property name="creationDate" value="2020/07/22 20:54"/>
+		<property name="deadline" value="2020/11/22 20:00"/>
+		<property name="body" value="Disminuyen los contagios en todas las comunidades autónomas."/>
+		<property name="firstOptionalLink" value="https://www.marca.com/tiramillas/actualidad/2020/07/22/5f17bbe7e2704e586f8b45d9.html"/>
+	</bean>
+	
+	<bean id="notice02" class="acme.entities.notices.Notice">
+		<property name="headerPicture" value="https://www.isglobal.org/documents/10179/7759027/Coronavirus+SARS-CoV-2+de+CDC+en+Unsplash"/>
+		<property name="title" value="El coronavirus empeora"/>
+		<property name="creationDate" value="2020/07/15 14:00"/>
+		<property name="deadline" value="2020/07/19 20:45"/>
+		<property name="body" value="Aumentan los ingresados en UCI en prácticamente todas las comunidades autónomas."/>
+		<property name="firstOptionalLink" value="https://www.abc.es/sociedad/abci-brote-casos-coronavirus-espana-peor-toda-union-europea-202007212310_noticia_amp.html"/>
+		<property name="secondOptionalLink" value="https://www.lavanguardia.com/vida/20200722/482463947101/coronavirus-espana-brotes-rebrotes-restricciones-catalunya-madrid-fallecidos-contagios-ultimas-noticias-hoy-en-directo.html?facet=amp"/>
+	</bean>
+	
+	<bean id="notice03" class="acme.entities.notices.Notice">
+		<property name="headerPicture" value="https://www.hola.com/imagenes/estar-bien/20200421166155/medio-ambiente-reutilizar-agua-lluvia-lb/0-813-793/reutilizar-agua-lluvia-t.jpg"/>
+		<property name="title" value="Mañana llueve"/>
+		<property name="creationDate" value="2020/07/19 15:00"/>
+		<property name="deadline" value="2020/12/19 21:45"/>
+		<property name="body" value="Mañana llueve en todo el país, llevad paragûas!"/>
+	</bean>
 
 </beans>
