@@ -108,5 +108,97 @@
 		<property name="scientist" value="Neron"/>
 		<property name="investigation" value="How to put out a fire in one day"/>
 	</bean>
+	
+	<bean id="TecnologyRecord01" class="acme.entities.records.TecnologyRecord">
+		<property name="title" value="Title01"/>
+		<property name="activitySector" value="Health"/>
+		<property name="inventorsName" value="John Smith"/>
+		<property name="description" value="This is a test"/>
+		<property name="website" value="http://www.example.com"/>
+		<property name="email" value="hcare@gmail.com"/>
+		<property name="indicator" value="open_source"/>
+		<property name="StarsRate" value="5"/>
+	</bean>
+	
+	<bean id="TecnologyRecord02" class="acme.entities.records.TecnologyRecord">
+		<property name="title" value="Title02"/>
+		<property name="activitySector" value="Health"/>
+		<property name="inventorsName" value="John Smith"/>
+		<property name="description" value="This is a test"/>
+		<property name="website" value="http://www.example.com"/>
+		<property name="email" value="hcare@gmail.com"/>
+		<property name="indicator" value="open_source"/>
+		<property name="StarsRate" value="1"/>
+	</bean>
+	
+	<bean id="TecnologyRecord03" class="acme.entities.records.TecnologyRecord">
+		<property name="title" value="Title03"/>
+		<property name="activitySector" value="Health"/>
+		<property name="inventorsName" value="John Smith"/>
+		<property name="description" value="This is a test"/>
+		<property name="website" value="http://www.example.com"/>
+		<property name="email" value="hcare@gmail.com"/>
+		<property name="indicator" value="close_source"/>
+		<property name="StarsRate" value="3"/>
+	</bean>
+	
+	<bean id="TecnologyRecord04" class="acme.entities.records.TecnologyRecord">
+		<property name="title" value="Title04"/>
+		<property name="activitySector" value="Health"/>
+		<property name="inventorsName" value="John Smith"/>
+		<property name="description" value="This is a test"/>
+		<property name="website" value="http://www.example.com"/>
+		<property name="email" value="hcare@gmail.com"/>
+		<property name="indicator" value="close_source"/>
+		<property name="StarsRate" value="2"/>
+	</bean>
+	
+	<bean id="ToolRecord01" class="acme.entities.records.ToolRecord">
+		<property name="title" value="Title01"/>
+		<property name="activitySector" value="Health"/>
+		<property name="inventorsName" value="John Smith"/>
+		<property name="description" value="This is a test"/>
+		<property name="website" value="http://www.example.com"/>
+		<property name="email" value="hcare@gmail.com"/>
+		<property name="indicator" value="open_source"/>
+		<property name="StarsRate" value="0"/>
+	</bean>
+	
+	<bean id="ToolRecord02" class="acme.entities.records.ToolRecord">
+		<property name="title" value="Title02"/>
+		<property name="activitySector" value="Health"/>
+		<property name="inventorsName" value="John Smith"/>
+		<property name="description" value="This is a test"/>
+		<property name="website" value="http://www.example.com"/>
+		<property name="email" value="hcare@gmail.com"/>
+		<property name="indicator" value="open_source"/>
+		<property name="StarsRate" value="3"/>
+	</bean>
+	
+	<bean id="ToolRecord03" class="acme.entities.records.ToolRecord">
+		<property name="title" value="Title03"/>
+		<property name="activitySector" value="Health"/>
+		<property name="inventorsName" value="John Smith"/>
+		<property name="description" value="This is a test"/>
+		<property name="website" value="http://www.example.com"/>
+		<property name="email" value="hcare@gmail.com"/>
+		<property name="indicator" value="close_source"/>
+		<property name="StarsRate" value="2"/>
+	</bean>
+	
+	<bean id="ToolRecord04" class="acme.entities.records.ToolRecord">
+		<property name="title" value="Title04"/>
+		<property name="activitySector" value="Health"/>
+		<property name="inventorsName" value="John Smith"/>
+		<property name="description" value="This is a test"/>
+		<property name="website" value="http://www.example.com"/>
+		<property name="email" value="hcare@gmail.com"/>
+		<property name="indicator" value="close_source"/>
+		<property name="StarsRate" value="0"/>
+	</bean>
+	
+	
+	
+	
 
 </beans>

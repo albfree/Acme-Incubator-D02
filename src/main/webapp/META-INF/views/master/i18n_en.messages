@@ -57,6 +57,12 @@ master.menu.anonymous.perezBulletin.create = Create Brayan's bulletin
 master.menu.anonymous.lobatoBulletin.list = List of lobatoBulletins
 master.menu.anonymous.lobatoBulletin.create = Create lobatoBulletin
 
+# master.menu.records.list ###################################################
+
+master.menu.records.list = Records
+master.menu.tecnology-record.list = Tecnology records
+master.menu.tool-record.list = Tool records
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
