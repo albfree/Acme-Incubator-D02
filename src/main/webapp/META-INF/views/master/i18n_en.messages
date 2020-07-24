@@ -61,6 +61,7 @@ master.menu.anonymous.lobatoBulletin.create = Create lobatoBulletin
 
 master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
+master.menu.administrator.customization = Customization Parameters
 master.menu.administrator.shutdown = Shut down
 
 # master.menu.provider ########################################################

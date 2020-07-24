@@ -366,4 +366,20 @@ GuerreroBulletin
 + quote: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>702</x>
+      <y>810</y>
+      <w>297</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Customization
+--
++ spamWords: String {NotBlank}
++ threshold: double{NotNull, Digits(3, 2), Positive}
++ activitySectors: String {NotBlank}</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
