@@ -15,6 +15,6 @@ public interface AuthenticatedInquiryRepository extends AbstractRepository {
 	@Query("select i from Inquiry i where i.deadline > CURRENT_TIMESTAMP")
 	Collection<Inquiry> findMany();
 
-	@Query("Select i from Inquiry i where i.id = ?1")
+	@Query("Select i from Inquiry i where i.id = ?1 and where i.deadline > CURRENT_TIMESTAMP")
 	Inquiry findOneById(int id);
 }
