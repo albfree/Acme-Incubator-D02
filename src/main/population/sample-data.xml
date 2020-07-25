@@ -213,7 +213,7 @@
 	
 	<!-- User -->
 	
-	<bean name="user01" class="acme.framework.entities.UserAccount">
+	<bean name="user01UserAccount" class="acme.framework.entities.UserAccount">
 		<property name="username" value="user01"/>	
 		<property name="password" value="user01"/>
 		<property name="enabled" value="true" />
