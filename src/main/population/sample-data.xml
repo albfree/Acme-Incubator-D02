@@ -210,5 +210,29 @@
 		<property name="deadline" value="2020/12/19 21:45"/>
 		<property name="body" value="Mañana llueve en todo el país, llevad paragûas!"/>
 	</bean>
+	
+	<!-- User -->
+	
+	<bean name="user01" class="acme.framework.entities.UserAccount">
+		<property name="username" value="user01"/>	
+		<property name="password" value="user01"/>
+		<property name="enabled" value="true" />
+		<property name="identity">
+			<bean class="acme.datatypes.UserIdentity">
+				<property name="name" value="User01" />
+				<property name="surname" value="First" />
+				<property name="email" value="user01@acme.com" />
+			</bean>
+		</property>
+		<property name="roles">
+			<list>
+				<ref bean="user01Authenticated"/>
+			</list>
+		</property>	
+	</bean>
+	
+	<bean name="user01Authenticated" class="acme.framework.entities.Authenticated">
+		<property name="userAccount" ref="user01UserAccount"/>
+	</bean>
 
 </beans>

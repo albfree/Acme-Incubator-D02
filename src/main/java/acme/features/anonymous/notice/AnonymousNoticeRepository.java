@@ -12,10 +12,10 @@ import acme.framework.repositories.AbstractRepository;
 @Repository
 public interface AnonymousNoticeRepository extends AbstractRepository {
 
-	@Query("select n from Notice n where n.id= ?1")
+	@Query("select n from Notice n where n.id= ?1 and n.deadline > CURRENT_TIMESTAMP")
 	Notice findOneNoticeById(int id);
 
-	@Query("select n from Notice n WHERE datediff(n.deadline, curdate()) > 0")
+	@Query("select n from Notice n where n.deadline > CURRENT_TIMESTAMP")
 	Collection<Notice> findActiveNotices();
 
 }
