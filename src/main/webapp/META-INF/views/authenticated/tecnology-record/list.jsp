@@ -23,5 +23,5 @@
 	<acme:list-column code="authenticated.tecnology-record.list.label.website" path="website" width="10%"/>
 	<acme:list-column code="authenticated.tecnology-record.list.label.email" path="email" width="10%"/>	
 	<acme:list-column code="authenticated.tecnology-record.list.label.indicator" path="indicator" width="10%"/>
-	<acme:list-column code="authenticated.tecnology-record.list.label.StarsRate" path="StarsRate" width="10%"/>
+	<acme:list-column code="authenticated.tecnology-record.list.label.starsRate" path="starsRate" width="10%"/>
 </acme:list>

@@ -11,17 +11,17 @@
 authenticated.tool-record.list.label.title = Título
 authenticated.tool-record.list.label.activitySector = Sector
 authenticated.tool-record.list.label.inventorsName = Inventor
-authenticated.tool-record.list.label.description = Descripcion
+authenticated.tool-record.list.label.description = Descripción
 authenticated.tool-record.list.label.website = Sitio web
-authenticated.tool-record.list.label.email = email
-authenticated.tool-record.list.label.indicator = Idicador
-authenticated.tool-record.list.label.StarsRate = Valoración
+authenticated.tool-record.list.label.email = Email
+authenticated.tool-record.list.label.indicator = Indicador
+authenticated.tool-record.list.label.starsRate = Valoración
 
 authenticated.tool-record.form.label.title = Título
 authenticated.tool-record.form.label.activitySector = Sector
 authenticated.tool-record.form.label.inventorsName = Inventor
-authenticated.tool-record.form.label.description = Descripcion
+authenticated.tool-record.form.label.description = Descripción
 authenticated.tool-record.form.label.website = Sitio web
-authenticated.tool-record.form.label.email = email
-authenticated.tool-record.form.label.indicator = Idicador
-authenticated.tool-record.form.label.StarsRate = Valoración
+authenticated.tool-record.form.label.email = Email
+authenticated.tool-record.form.label.indicator = Indicador
+authenticated.tool-record.form.label.starsRate = Valoración

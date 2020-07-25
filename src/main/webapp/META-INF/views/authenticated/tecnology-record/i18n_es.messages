@@ -11,17 +11,17 @@
 authenticated.tecnology-record.list.label.title = Título
 authenticated.tecnology-record.list.label.activitySector = Sector
 authenticated.tecnology-record.list.label.inventorsName = Inventor
-authenticated.tecnology-record.list.label.description = Descripcion
+authenticated.tecnology-record.list.label.description = Descripción
 authenticated.tecnology-record.list.label.website = Sitio web
-authenticated.tecnology-record.list.label.email = email
-authenticated.tecnology-record.list.label.indicator = Idicador
-authenticated.tecnology-record.list.label.StarsRate = Valoración
+authenticated.tecnology-record.list.label.email = Email
+authenticated.tecnology-record.list.label.indicator = Indicador
+authenticated.tecnology-record.list.label.starsRate = Valoración
 
 authenticated.tecnology-record.form.label.title = Título
 authenticated.tecnology-record.form.label.activitySector = Sector
 authenticated.tecnology-record.form.label.inventorsName = Inventor
-authenticated.tecnology-record.form.label.description = Descripcion
+authenticated.tecnology-record.form.label.description = Descripción
 authenticated.tecnology-record.form.label.website = Sitio web
-authenticated.tecnology-record.form.label.email = email
-authenticated.tecnology-record.form.label.indicator = Idicador
-authenticated.tecnology-record.form.label.StarsRate = Valoración
+authenticated.tecnology-record.form.label.email = Email
+authenticated.tecnology-record.form.label.indicator = Indicador
+authenticated.tecnology-record.form.label.starsRate = Valoración

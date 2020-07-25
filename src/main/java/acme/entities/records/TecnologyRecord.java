@@ -8,6 +8,8 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 
+import org.hibernate.validator.constraints.URL;
+
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -36,6 +38,7 @@ public class TecnologyRecord extends DomainEntity {
 	private String				description;
 
 	@NotBlank
+	@URL
 	private String				website;
 
 	@NotBlank
@@ -48,6 +51,6 @@ public class TecnologyRecord extends DomainEntity {
 
 	@Min(-5)
 	@Max(5)
-	private Integer				StarsRate;
+	private Integer				starsRate;
 
 }

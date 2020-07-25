@@ -23,6 +23,6 @@
 	<acme:form-url code="anonymous.tecnology-record.list.label.website" path="website" />
 	<acme:form-textbox code="anonymous.tecnology-record.list.label.email" path="email" />	
 	<acme:form-textbox code="anonymous.tecnology-record.list.label.indicator" path="indicator" />
-	<acme:form-textbox code="anonymous.tecnology-record.list.label.StarsRate" path="StarsRate" />
+	<acme:form-textbox code="anonymous.tecnology-record.list.label.starsRate" path="starsRate" />
 
 </acme:form>
