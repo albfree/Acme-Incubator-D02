@@ -21,6 +21,10 @@
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.notice.list" action="/anonymous/notice/list"/>
 			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.tecnology-record.list" action="/anonymous/tecnology-record/list" />
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.tool-record.list" action="/anonymous/tool-record/list"/>
+			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.albgueram" action="https://github.com/albfree"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.josescrue-favourite-link" action="https://www.motogp.com/es"/>
@@ -64,6 +68,10 @@
 			<acme:menu-suboption code="master.menu.authenticated.overture.list" action="/authenticated/overture/list" />
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.authenticated.inquiry.list" action="/authenticated/inquiry/list" />
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.tecnology-record.list" action="/authenticated/tecnology-record/list" />
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.tool-record.list" action="/authenticated/tool-record/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

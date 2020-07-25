@@ -32,6 +32,8 @@ master.menu.bulletins.create = Creates of Bulletins
 
 master.menu.anonymous = Anonymous
 master.menu.anonymous.notice.list = Notice's list
+master.menu.tecnology-record.list = Tecnology records
+master.menu.tool-record.list = Tool records
 master.menu.anonymous.albgueram = Alberto's favourite link
 master.menu.anonymous.josescrue-favourite-link = josescrue's favourite link
 master.menu.anonymous.favourite-link.diego = Diego's favourite link
