@@ -70,6 +70,8 @@ master.menu.administrator.shutdown = Parar el sistema
 master.menu.authenticated = Autenticado
 master.menu.authenticated.notice.list = Lista de avisos
 master.menu.authenticated.challenge = Desafíos
+master.menu.authenticated.overture.list = Lista de propuestas
+master.menu.authenticated.inquiry.list = Lista de consultas
 
 # master.menu.provider ########################################################
 

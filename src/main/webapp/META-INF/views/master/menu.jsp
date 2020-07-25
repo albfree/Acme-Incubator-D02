@@ -60,6 +60,10 @@
 			<acme:menu-suboption code="master.menu.authenticated.notice.list" action="/authenticated/notice/list"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.authenticated.challenge" action="/authenticated/challenge/list"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.authenticated.overture.list" action="/authenticated/overture/list" />
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.authenticated.inquiry.list" action="/authenticated/inquiry/list" />
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

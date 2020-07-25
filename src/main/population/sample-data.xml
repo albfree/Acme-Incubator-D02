@@ -110,7 +110,7 @@
 	</bean>
 	
 	<!-- Challenge -->
-
+	
 	<bean id="challenge01" class="acme.entities.challenges.Challenge">
 		<property name="title" value="Challenge 01"/>
 		<property name="deadline" value="2021/08/21 23:59"/>
@@ -182,6 +182,16 @@
 		<property name="currency" value="€"/>
 	</bean>
 	
+	<bean id="money04" class="acme.framework.datatypes.Money">
+		<property name="amount" value="500.00" />
+		<property name="currency" value="€" />
+	</bean>
+
+	<bean id="money05" class="acme.framework.datatypes.Money">
+		<property name="amount" value="1000000.00" />
+		<property name="currency" value="€" />
+	</bean>
+	
 	<!-- Notices -->
 
 	<bean id="notice01" class="acme.entities.notices.Notice">
@@ -211,7 +221,67 @@
 		<property name="body" value="Mañana llueve en todo el país, llevad paragûas!"/>
 	</bean>
 	
-	<!-- User -->
+	<!-- Overtures -->
+	
+	<bean id="overture01" class="acme.entities.overtures.Overture">
+		<property name="title" value="overture" />
+		<property name="creation" value="2019/06/06 10:00" />
+		<property name="deadline" value="2022/06/06 10:00" />
+		<property name="description" value="overture overture overture" />
+		<property name="minMoney">
+			<ref bean="money04" />
+		</property>
+		<property name="maxMoney">
+			<ref bean="money05" />
+		</property>
+		<property name="email" value="overture@overture.com" />
+	</bean>
+
+	<bean id="overture02" class="acme.entities.overtures.Overture">
+		<property name="title" value="overture" />
+		<property name="creation" value="2010/06/06 10:00" />
+		<property name="deadline" value="2019/06/06 10:00" />
+		<property name="description" value="overture overture overture" />
+		<property name="minMoney">
+			<ref bean="money04" />
+		</property>
+		<property name="maxMoney">
+			<ref bean="money05" />
+		</property>
+		<property name="email" value="overture@overture.com" />
+	</bean>
+	
+	<!-- Inquiries -->
+
+	<bean id="inquiry01" class="acme.entities.inquiries.Inquiry">
+		<property name="title" value="Inquiry" />
+		<property name="creation" value="2019/06/06 10:00" />
+		<property name="deadline" value="2022/06/06 10:00" />
+		<property name="description" value="Inquiry Inquiry Inquiry" />
+		<property name="minMoney">
+			<ref bean="money04" />
+		</property>
+		<property name="maxMoney">
+			<ref bean="money05" />
+		</property>
+		<property name="email" value="Inquiry@Inquiry.com" />
+	</bean>
+
+	<bean id="inquiry02" class="acme.entities.inquiries.Inquiry">
+		<property name="title" value="Inquiry" />
+		<property name="creation" value="2010/06/06 10:00" />
+		<property name="deadline" value="2019/06/06 10:00" />
+		<property name="description" value="Inquiry Inquiry Inquiry" />
+		<property name="minMoney">
+			<ref bean="money04" />
+		</property>
+		<property name="maxMoney">
+			<ref bean="money05" />
+		</property>
+		<property name="email" value="Inquiry@Inquiry.com" />
+	</bean>
+	
+	<!-- Users -->
 	
 	<bean name="user01UserAccount" class="acme.framework.entities.UserAccount">
 		<property name="username" value="user01"/>	

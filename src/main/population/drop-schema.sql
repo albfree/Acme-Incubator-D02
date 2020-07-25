@@ -35,9 +35,15 @@
 
     drop table if exists `horrillo_bulletin`;
 
+    drop table if exists `inquiry`;
+
     drop table if exists `lobato_bulletin`;
 
+<<<<<<< HEAD
     drop table if exists `notice`;
+=======
+    drop table if exists `overture`;
+>>>>>>> jose-lobato
 
     drop table if exists `perez_bulletin`;
 

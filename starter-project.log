@@ -122,6 +122,7 @@ ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
 ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
 >>>>>>> jose-lobato
 <<<<<<< HEAD
+<<<<<<< HEAD
 WARN [org.apache.catalina.util.SessionIdGeneratorBase] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [437] milliseconds.
 WARN [org.apache.catalina.util.SessionIdGeneratorBase] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [506] milliseconds.
 ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-incubator/META-INF/views/framework/page.jsp HTTP/1.1
@@ -129,6 +130,10 @@ ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
 ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
 ERROR [org.apache.catalina.util.LifecycleBase] at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008): Protocol handler start failed
 at java.base/sun.nio.ch.Net.bind0(Native Method): Address already in use: bind
+=======
+ERROR [org.apache.catalina.util.LifecycleBase] at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008): Protocol handler start failed
+at sun.nio.ch.Net.bind0(Native Method): Address already in use: bind
+>>>>>>> jose-lobato
 ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] ***************************
 APPLICATION FAILED TO START
 ***************************
@@ -136,6 +141,7 @@ Description:
 The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
 Action:
 Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+<<<<<<< HEAD
 WARN [org.apache.catalina.util.SessionIdGeneratorBase] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [426] milliseconds.
 WARN [org.apache.catalina.util.SessionIdGeneratorBase] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [461] milliseconds.
 ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-incubator/META-INF/views/framework/page.jsp HTTP/1.1
@@ -197,3 +203,13 @@ ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.fr
 ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-incubator/META-INF/views/framework/page.jsp HTTP/1.1
 ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
 ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+=======
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-incubator/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47): Failed to convert from type [java.util.ArrayList<?>] to type [@org.springframework.data.jpa.repository.Query java.util.Collection<acme.entities.inquiries.Inquiry>] for value '[acme.entities.overtures.Overture{id=20, version=0}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [acme.entities.overtures.Overture] to type [@org.springframework.data.jpa.repository.Query acme.entities.inquiries.Inquiry]
+org.springframework.core.convert.support.GenericConversionService.handleConverterNotFound(GenericConversionService.java:321): No converter found capable of converting from type [acme.entities.overtures.Overture] to type [@org.springframework.data.jpa.repository.Query acme.entities.inquiries.Inquiry]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-incubator/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47): Failed to convert from type [java.util.ArrayList<?>] to type [@org.springframework.data.jpa.repository.Query java.util.Collection<acme.entities.inquiries.Inquiry>] for value '[acme.entities.overtures.Overture{id=20, version=0}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [acme.entities.overtures.Overture] to type [@org.springframework.data.jpa.repository.Query acme.entities.inquiries.Inquiry]
+org.springframework.core.convert.support.GenericConversionService.handleConverterNotFound(GenericConversionService.java:321): No converter found capable of converting from type [acme.entities.overtures.Overture] to type [@org.springframework.data.jpa.repository.Query acme.entities.inquiries.Inquiry]
+>>>>>>> jose-lobato

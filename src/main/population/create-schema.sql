@@ -76,6 +76,21 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `inquiry` (
+       `id` integer not null,
+        `version` integer not null,
+        `creation` datetime(6),
+        `deadline` datetime(6),
+        `description` varchar(255),
+        `email` varchar(255),
+        `max_money_amount` double precision,
+        `max_money_currency` varchar(255),
+        `min_money_amount` double precision,
+        `min_money_currency` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `lobato_bulletin` (
        `id` integer not null,
         `version` integer not null,
@@ -85,6 +100,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+<<<<<<< HEAD
     create table `notice` (
        `id` integer not null,
         `version` integer not null,
@@ -94,6 +110,19 @@
         `first_optional_link` varchar(255),
         `header_picture` varchar(255),
         `second_optional_link` varchar(255),
+=======
+    create table `overture` (
+       `id` integer not null,
+        `version` integer not null,
+        `creation` datetime(6),
+        `deadline` datetime(6),
+        `description` varchar(255),
+        `email` varchar(255),
+        `max_money_amount` double precision,
+        `max_money_currency` varchar(255),
+        `min_money_amount` double precision,
+        `min_money_currency` varchar(255),
+>>>>>>> jose-lobato
         `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
