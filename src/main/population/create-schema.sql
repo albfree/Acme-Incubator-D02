@@ -47,6 +47,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `customization` (
+       `id` integer not null,
+        `version` integer not null,
+        `activity_sectors` varchar(255),
+        `spam_words` varchar(255),
+        `threshold` double precision,
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `escobar_bulletin` (
        `id` integer not null,
         `version` integer not null,

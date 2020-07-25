@@ -29,6 +29,8 @@
 
     drop table if exists `consumer`;
 
+    drop table if exists `customization`;
+
     drop table if exists `escobar_bulletin`;
 
     drop table if exists `guerrero_bulletin`;
