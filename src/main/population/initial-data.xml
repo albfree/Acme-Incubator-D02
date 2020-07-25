@@ -72,5 +72,13 @@
 	<bean name="administratorAuthenticated" class="acme.framework.entities.Authenticated">
 		<property name="userAccount" ref="administratorUserAccount" />
 	</bean>
+
+	<!-- Spam words -->
+	
+	<bean id="customization" class="acme.entities.customizations.Customization">
+		<property name="spamWords" value="sex;sexo;hard core;viagra;cialis;nigeria;you've won;has ganado;million dollar;millon de dolares" />
+		<property name="threshold" value="2.50"/>
+		<property name="activitySectors" value="Technology;Science;Arts;Business;Health"/>
+	</bean>
 	
 </beans>
