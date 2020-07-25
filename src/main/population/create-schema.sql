@@ -100,7 +100,6 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-<<<<<<< HEAD
     create table `notice` (
        `id` integer not null,
         `version` integer not null,
@@ -110,7 +109,10 @@
         `first_optional_link` varchar(255),
         `header_picture` varchar(255),
         `second_optional_link` varchar(255),
-=======
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `overture` (
        `id` integer not null,
         `version` integer not null,
@@ -122,7 +124,6 @@
         `max_money_currency` varchar(255),
         `min_money_amount` double precision,
         `min_money_currency` varchar(255),
->>>>>>> jose-lobato
         `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
