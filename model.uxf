@@ -29,7 +29,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>264</x>
+      <x>363</x>
       <y>154</y>
       <w>242</w>
       <h>132</h>
@@ -151,7 +151,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>264</x>
+      <x>363</x>
       <y>308</y>
       <w>242</w>
       <h>77</h>
@@ -197,15 +197,15 @@ Consumer
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>154</y>
-      <w>242</w>
+      <x>22</x>
+      <y>440</y>
+      <w>407</w>
       <h>88</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Datatype&gt;&gt;
 Money
 --
-+ amount: double {Digits(10, 2)}
++ amount: double {Digits(10, 2), Pattern(regexp = "^\\€$")}
 + currentcy: String {NotBlank}
 
 bg=yellow</panel_attributes>
@@ -214,8 +214,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>264</y>
+      <x>22</x>
+      <y>154</y>
       <w>242</w>
       <h>143</h>
     </coordinates>
@@ -234,8 +234,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>429</y>
+      <x>22</x>
+      <y>319</y>
       <w>242</w>
       <h>99</h>
     </coordinates>
@@ -390,7 +390,7 @@ Notice
     <id>UMLClass</id>
     <coordinates>
       <x>462</x>
-      <y>858</y>
+      <y>847</y>
       <w>385</w>
       <h>220</h>
     </coordinates>
@@ -412,7 +412,7 @@ Challenge
     <id>UMLClass</id>
     <coordinates>
       <x>462</x>
-      <y>1100</y>
+      <y>1089</y>
       <w>385</w>
       <h>132</h>
     </coordinates>
@@ -428,9 +428,9 @@ Customization
     <id>UMLClass</id>
     <coordinates>
       <x>462</x>
-      <y>1254</y>
-      <w>385</w>
-      <h>220</h>
+      <y>1243</y>
+      <w>407</w>
+      <h>198</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Overture
@@ -448,9 +448,9 @@ Overture
     <id>UMLClass</id>
     <coordinates>
       <x>462</x>
-      <y>1496</y>
-      <w>385</w>
-      <h>220</h>
+      <y>1463</y>
+      <w>407</w>
+      <h>198</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Inquiry
@@ -469,8 +469,8 @@ Inquiry
     <coordinates>
       <x>891</x>
       <y>638</y>
-      <w>385</w>
-      <h>198</h>
+      <w>583</w>
+      <h>209</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 TecnologyRecord
@@ -481,7 +481,7 @@ TecnologyRecord
 + description: String {NotBlank}
 + website: String {NotBlank,URL}
 + email: String {NotBlank, email}
-+ indicator: String {NotBlank}
++ indicator: String {NotBlank, Pattern(regexp = "^(open_source|close_source)$")}
 + starsRate: Integer {MIN(-5), MAX(5)}</panel_attributes>
     <additional_attributes/>
   </element>
@@ -489,9 +489,9 @@ TecnologyRecord
     <id>UMLClass</id>
     <coordinates>
       <x>891</x>
-      <y>858</y>
-      <w>385</w>
-      <h>198</h>
+      <y>869</y>
+      <w>583</w>
+      <h>209</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 ToolRecord
@@ -502,7 +502,7 @@ ToolRecord
 + description: String {NotBlank}
 + website: String {NotBlank,URL}
 + email: String {NotBlank, email}
-+ indicator: String {NotBlank}
++ indicator: String {NotBlank, Pattern(regexp = "^(open_source|close_source)$")}
 + starsRate: Integer {MIN(-5), MAX(5)}</panel_attributes>
     <additional_attributes/>
   </element>
