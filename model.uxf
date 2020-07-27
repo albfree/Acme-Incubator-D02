@@ -464,4 +464,46 @@ Inquiry
 + email: Email {NotBlank, Email}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>891</x>
+      <y>638</y>
+      <w>385</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+TecnologyRecord
+--
++ title: String {NotBlank}
++ activitySector: String {NotBlank}
++ inventorsName: String {NotBlank}
++ description: String {NotBlank}
++ website: String {NotBlank,URL}
++ email: String {NotBlank, email}
++ indicator: String {NotBlank}
++ starsRate: Integer {MIN(-5), MAX(5)}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>891</x>
+      <y>858</y>
+      <w>385</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+ToolRecord
+--
++ title: String {NotBlank}
++ activitySector: String {NotBlank}
++ inventorsName: String {NotBlank}
++ description: String {NotBlank}
++ website: String {NotBlank,URL}
++ email: String {NotBlank, email}
++ indicator: String {NotBlank}
++ starsRate: Integer {MIN(-5), MAX(5)}</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
