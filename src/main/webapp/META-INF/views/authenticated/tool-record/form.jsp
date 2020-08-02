@@ -22,10 +22,7 @@
 	<acme:form-textarea code="authenticated.tool-record.form.label.description" path="description" />
 	<acme:form-url code="authenticated.tool-record.form.label.website" path="website" />
 	<acme:form-textbox code="authenticated.tool-record.form.label.email" path="email" />	
-	<acme:form-select code="authenticated.tool-record.form.label.indication" path="indication" >
-		<acme:form-option code="authenticated.tool-record.form.label.indication.open" value="open-source"/>
-		<acme:form-option code="authenticated.tool-record.form.label.indication.closed" value="closed-source"/>
-	</acme:form-select>
+	<acme:form-textbox code="authenticated.tool-record.form.label.indication" path="indication" />
 	<acme:form-textbox code="authenticated.tool-record.form.label.starsRate" path="starsRate" />
 
 	<acme:form-return code="authenticated.tool-record.form.label.return"/>

@@ -33,7 +33,7 @@ public class AnonymousToolRecordListService implements AbstractListService<Anony
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "activitySector", "inventorsName", "description", "website", "email", "indication", "starsRate");
+		request.unbind(entity, model, "title", "activitySector", "description", "indication", "starsRate");
 	}
 
 	@Override

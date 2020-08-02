@@ -10,10 +10,7 @@
 
 anonymous.technology-record.list.label.title = Title
 anonymous.technology-record.list.label.activitySector = Sector
-anonymous.technology-record.list.label.inventorsName = Inventor
 anonymous.technology-record.list.label.description = Description
-anonymous.technology-record.list.label.website = Website
-anonymous.technology-record.list.label.email = Email
 anonymous.technology-record.list.label.indication = Indication
 anonymous.technology-record.list.label.starsRate = Rate
 
@@ -24,7 +21,5 @@ anonymous.technology-record.form.label.description = Description
 anonymous.technology-record.form.label.website = Website
 anonymous.technology-record.form.label.email = Email
 anonymous.technology-record.form.label.indication = Indication
-anonymous.technology-record.form.label.indication.open = Open source
-anonymous.technology-record.form.label.indication.closed = Closed source
 anonymous.technology-record.form.label.starsRate = Rate
 anonymous.technology-record.form.label.return = Return

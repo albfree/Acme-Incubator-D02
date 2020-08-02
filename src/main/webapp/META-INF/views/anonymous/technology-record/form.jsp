@@ -22,10 +22,7 @@
 	<acme:form-textarea code="anonymous.technology-record.form.label.description" path="description" />
 	<acme:form-url code="anonymous.technology-record.form.label.website" path="website" />
 	<acme:form-textbox code="anonymous.technology-record.form.label.email" path="email" />	
-	<acme:form-select code="anonymous.technology-record.form.label.indication" path="indication" >
-		<acme:form-option code="anonymous.technology-record.form.label.indication.open" value="open-source"/>
-		<acme:form-option code="anonymous.technology-record.form.label.indication.closed" value="closed-source"/>
-	</acme:form-select>
+	<acme:form-textbox code="anonymous.technology-record.form.label.indication" path="indication" />
 	<acme:form-textbox code="anonymous.technology-record.form.label.starsRate" path="starsRate" />
 
 	<acme:form-return code="anonymous.technology-record.form.label.return"/>
