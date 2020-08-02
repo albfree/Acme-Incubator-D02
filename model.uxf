@@ -473,7 +473,7 @@ Inquiry
       <h>209</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
-TecnologyRecord
+technologyRecord
 --
 + title: String {NotBlank}
 + activitySector: String {NotBlank}

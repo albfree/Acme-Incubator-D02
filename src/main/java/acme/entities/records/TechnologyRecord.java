@@ -17,7 +17,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class TecnologyRecord extends DomainEntity {
+public class TechnologyRecord extends DomainEntity {
 
 	// Serialization identifier --------------------------------------------
 
@@ -47,7 +47,7 @@ public class TecnologyRecord extends DomainEntity {
 
 	@NotBlank
 	@Pattern(regexp = "^(open-source|closed-source)$")
-	private String				indicator;
+	private String				indication;
 
 	@Min(-5)
 	@Max(5)

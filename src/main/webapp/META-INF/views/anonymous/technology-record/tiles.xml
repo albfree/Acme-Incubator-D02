@@ -18,12 +18,12 @@
 
 <tiles-definitions>
 
-	<definition name="anonymous/tecnology-record/list" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/tecnology-record/list.jsp" />
+	<definition name="anonymous/technology-record/list" extends="master">
+		<put-attribute name="body" type="template" value="../anonymous/technology-record/list.jsp" />
 	</definition>
 	
-	<definition name="anonymous/tecnology-record/form" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/tecnology-record/form.jsp" />
+	<definition name="anonymous/technology-record/form" extends="master">
+		<put-attribute name="body" type="template" value="../anonymous/technology-record/form.jsp" />
 	</definition>
 
 </tiles-definitions>

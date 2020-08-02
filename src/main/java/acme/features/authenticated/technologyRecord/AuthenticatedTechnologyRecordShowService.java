@@ -1,32 +1,32 @@
 
-package acme.features.authenticated.toolRecord;
+package acme.features.authenticated.technologyRecord;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.records.ToolRecord;
+import acme.entities.records.TechnologyRecord;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Authenticated;
 import acme.framework.services.AbstractShowService;
 
 @Service
-public class AuthenticatedToolRecordShowService implements AbstractShowService<Authenticated, ToolRecord> {
+public class AuthenticatedTechnologyRecordShowService implements AbstractShowService<Authenticated, TechnologyRecord> {
 
 	// Internal state -----------------------------------------------------------
 
 	@Autowired
-	AuthenticatedToolRecordRepository repository;
+	AuthenticatedTechnologyRecordRepository repository;
 
 
 	@Override
-	public boolean authorise(final Request<ToolRecord> request) {
+	public boolean authorise(final Request<TechnologyRecord> request) {
 		assert request != null;
 		return true;
 	}
 
 	@Override
-	public void unbind(final Request<ToolRecord> request, final ToolRecord entity, final Model model) {
+	public void unbind(final Request<TechnologyRecord> request, final TechnologyRecord entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
@@ -35,10 +35,10 @@ public class AuthenticatedToolRecordShowService implements AbstractShowService<A
 	}
 
 	@Override
-	public ToolRecord findOne(final Request<ToolRecord> request) {
+	public TechnologyRecord findOne(final Request<TechnologyRecord> request) {
 		assert request != null;
 
-		ToolRecord res;
+		TechnologyRecord res;
 		int id;
 
 		id = request.getModel().getInteger("id");

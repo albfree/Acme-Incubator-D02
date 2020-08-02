@@ -1,5 +1,5 @@
 
-package acme.features.anonymous.tecnologyRecord;
+package acme.features.anonymous.technologyRecord;
 
 import javax.annotation.PostConstruct;
 
@@ -7,22 +7,22 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import acme.entities.records.TecnologyRecord;
+import acme.entities.records.TechnologyRecord;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Anonymous;
 
 @Controller
-@RequestMapping("/anonymous/tecnology-record/")
-public class AnonymousTecnologyRecordController extends AbstractController<Anonymous, TecnologyRecord> {
+@RequestMapping("/anonymous/technology-record/")
+public class AnonymousTechnologyRecordController extends AbstractController<Anonymous, TechnologyRecord> {
 
 	// Internal state -----------------------------------------------------------------------
 
 	@Autowired
-	private AnonymousTecnologyRecordListService	listService;
+	private AnonymousTechnologyRecordListService	listService;
 
 	@Autowired
-	private AnonymousTecnologyRecordShowService	showService;
+	private AnonymousTechnologyRecordShowService	showService;
 
 
 	// Constructors -------------------------------------------------------------------------

@@ -18,11 +18,11 @@
 
 <tiles-definitions>
 
-	<definition name="authenticated/tecnology-record/list" extends="master">
-		<put-attribute name="body" type="template" value="../authenticated/tecnology-record/list.jsp" />
+	<definition name="authenticated/technology-record/list" extends="master">
+		<put-attribute name="body" type="template" value="../authenticated/technology-record/list.jsp" />
 	</definition>
 
-<definition name="authenticated/tecnology-record/form" extends="master">
-		<put-attribute name="body" type="template" value="../authenticated/tecnology-record/form.jsp" />
+<definition name="authenticated/technology-record/form" extends="master">
+		<put-attribute name="body" type="template" value="../authenticated/technology-record/form.jsp" />
 	</definition>
 </tiles-definitions>
